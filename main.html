@@ -5,22 +5,11 @@
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
       <a-assets>
-    <!--<a-asset-item id="bunny" src="https://cdn.jsdelivr.net/gh/asklasen/Models@master/Objekte/bunny/scene.gltf"></a-asset-item>
-    <a-asset-item id="korb" src="https://cdn.jsdelivr.net/gh/asklasen/Models@master/Objekte/Korb/scene.gltf"></a-asset-item>
-    <a-asset-item id="eier" src="https://cdn.jsdelivr.net/gh/asklasen/Models@master/Objekte/easter_eggs/scene.gltf"></a-asset-item>
--->
-  <!--<a-asset-item id="oster" src="https://cdn.jsdelivr.net/gh/asklasen/Models@master/Objekte/Ostergruss.glb">-->
-  <a-asset-item id="lowbunny" src="https://cdn.jsdelivr.net/gh/asklasen/Models@master/Objekte/lowbunny/scene.gltf">      
-  </a-assets>
+      <a-asset-item id="lowbunny" src="https://cdn.jsdelivr.net/gh/asklasen/Models@master/Objekte/lowbunny/scene.gltf">      
+      </a-assets>
   	<a-marker type='barcode' value='6'>
       <a-entity gltf-model="#lowbunny" scale="0.1 0.1 0.1" position='0.5 0 0' rotation="0 0 0"></a-entity>
     </a-marker>
-     <!--<a-marker type='barcode' value='6'>
-    <a-entity gltf-model="#oster" scale="10 10 10" position='0.2 0.5 -0.5' rotation="-45 0 0"></a-entity>                           </a-marker>
-   <!--<a-marker type='barcode' value='6'>
-    <a-entity gltf-model="#korb" scale="0.01 0.01 0.01" position='0.2 0.1 -0.5' rotation="-45 0 0"></a-entity>                           </a-marker>
-<a-marker type='barcode' value='6'>
-    <a-entity gltf-model="#eier" scale="10 10 10" position='0.1 0.5 -0.5' rotation="-45 0 0"></a-entity>                                    </a-marker>-->   
   	<a-entity camera></a-entity>
     </a-scene>
   </body>
